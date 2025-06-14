@@ -2,7 +2,15 @@
 Our project establishes a solid and comprehensive foundation of expertise in the field of digital signal processing and communication systems. 
 
 We take pride in fully meeting the requirements for "ADC modulation and demodulation," delivering a solution that ensures efficient signal conversion and transmission. 
+<div align="center">  
+<a href="Final_Report.pdf" target="_blank">
+     <img src="https://img.shields.io/badge/Link_Report-808080?style=for-the-badge&logoColor=white" target="_blank" /> 
+</div>
+
 ## How the System Works
+
+https://github.com/user-attachments/assets/1de7112b-d077-4bc2-9216-d66f3e682195
+
 An analog sine wave signal is used as input, with the following parameters:
 - Amplitude: 0.75
 - Frequency: 0.035 Hz
@@ -30,11 +38,4 @@ Pass Through Noise Channel (AWGN)
 Demodulation restores binary data (0 and 1).
 
 Error Rate Calculation to calculate the bit error rate (BER) to show the influence of noise and ADC conversion on signal quality.
-<div align="center">  
-<a href="Final_Report.pdf" target="_blank">
-     <img src="https://img.shields.io/badge/Link_Report-808080?style=for-the-badge&logoColor=white" target="_blank" /> 
-</div>
-
-
-https://github.com/user-attachments/assets/1de7112b-d077-4bc2-9216-d66f3e682195
 
