@@ -4,9 +4,9 @@ Our project establishes a solid and comprehensive foundation of expertise in the
 We take pride in fully meeting the requirements for "ADC modulation and demodulation," delivering a solution that ensures efficient signal conversion and transmission. 
 ## How the System Works
 An analog sine wave signal is used as input, with the following parameters:
--Amplitude: 0.75
--Frequency: 0.035 Hz
--Period: 28.5 seconds
+- Amplitude: 0.75
+- Frequency: 0.035 Hz
+- Period: 28.5 seconds
 
 Sampling is performed using a Zero-Order Hold block, which produces a smooth step waveform. The amplitude is reduced to 0.55 by adding a 60% width pulse.
 
