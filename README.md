@@ -8,19 +8,28 @@ An analog sine wave signal is used as input, with the following parameters:
 - Frequency: 0.035 Hz
 - Period: 28.5 seconds
 
-Sampling is performed using a Zero-Order Hold block, which produces a smooth step waveform. The amplitude is reduced to 0.55 by adding a 60% width pulse.
+Sampling is done using a Zero-Order Hold block
+- Amplitude: 0.55
+- Pulse width: 60%.
 
 Quantization of the signal into discrete levels.
+- Quantization interval: 0.66
 
-Encoding of the quantized signal into binary form using a Uniform encoder, which produces a digital signal with 4 levels.
+Encoding using a Uniform encoder
+- Peak: 1
+- Bits: 2
+- Levels: 4
 
-Modulation of the binary digital signal (0 and 1) into +1 or -1 values ​​corresponding to 0° or 180° phase.
+Modulation (0 and 1) to (+1 and -1) phase (0° and 180°).
 
-Pass-through of a noisy channel (AWGN) is where white Gaussian noise is added, depending on the variance.
+Pass Through Noise Channel (AWGN)
+- Initial seed: 67
+- Es/No: 1e-6
+- Signal Power: 1W
 
-Demodulation at the receiver side helps the signal to recover binary data (0 and 1).
+Demodulation restores binary data (0 and 1).
 
-Evaluate performance using the Error Rate Calculation block to calculate the bit error rate (BER) which shows the influence of noise and ADC conversion on signal quality.
+Error Rate Calculation to calculate the bit error rate (BER) to show the influence of noise and ADC conversion on signal quality.
 <div align="center">  
 <a href="Final_Report.pdf" target="_blank">
      <img src="https://img.shields.io/badge/Link_Report-808080?style=for-the-badge&logoColor=white" target="_blank" /> 
