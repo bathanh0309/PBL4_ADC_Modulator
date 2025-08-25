@@ -1,11 +1,3 @@
-# ADC Modulator Design
-
-Design and simulation of a Sigma-Delta ADC modulator.
-
-## Features
-- Simulation of ADC modulator using Verilog/VHDL
-- Analysis of quantization noise and SNR
-- Testbench examples included
 
 
 # Introduction
